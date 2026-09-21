@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pricing Cards</title>
+</head>
+<body>
+    
+    <main>
+        <section class="card">
+
+            <h1 class="package">Basic</h1>
+            <p class="price"><span class="bold">$9</span>/mo</p>
+            <p class="description">Essential features to get started.</p>
+
+            <ul>
+                <li>1 user</li>
+                <li>6 projects</li>
+                <li>10 GB storage</li>
+                <li>Email support</li>
+                <li>Basic reports</li>
+            </ul>
+
+            <button id="basic">Choose Basic</button>
+        </section>
+
+        <section class="card">
+            <div class="popular">Most popular</div>
+            <h1 class="package">Pro</h1>
+            <p class="price"><span class="bold sale ">$19</span>/mo</p>
+            <p class="description">Adavanced tools for growing teams.</p>
+
+            
+            <ul>
+                <li>6 user</li>
+                <li>60 projects</li>
+                <li>100 GB storage</li>
+                <li>Priority support</li>
+                <li>Advanced reports</li>
+            </ul>
+            
+
+            <button id="pro">Choose Pro</button>
+        </section>
+       
+        <section class="card">
+
+            <h1 class="package">Business</h1>
+            <p class="price"><span class="bold">$49</span>/mo</p>
+            <p class="description">Complete solution for large organizations.</p>
+
+            <ul>
+                <li>Unlimited user</li>
+                <li>Unlimited projects</li>
+                <li>1TB storage</li>
+                <li>24/7 support</li>
+                <li>Custom reports</li>
+            </ul>
+
+            <button id="business">Choose Business</button>
+        </section>
+        
+        <div id="popupOverlay" class="overlay" hidden>
+            <div class="popup-box">
+                <h2>Success!</h2>
+                <p id="thank-you"></p>
+                <button id="closePopupBtn">Close</button>
+            </div>
+        </div>
+    </main>
+    
+    
+    
+
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
